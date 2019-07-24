@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- header -->
+      <div class="header">
+        <div>＜发现</div>
+        <div>车友圈</div>
+        <div><img src="./img/camara.svg" /></div>
+      </div>
+      <!-- info -->
+      <div class="info">
+        <div><span>张小六</span><img src="./img/info_img.png" /></div>
+      </div>
+
+      <!-- content -->
+      <div class="content">
+        <div class="person_info">
+          <img src="./img/info_img.png" />
+          <div id="name_info">
+            <div class="name">凌度</div>
+            <div class="name_text">滴滴出行，出行无忧。</div>
+          </div>
+        </div>
+
+        <div class="ads_info">
+          <img src="./img/text_img.png" />
+          <div>滴滴出行，从此出行再无忧。</div>
+        </div>
+
+        <div class="state" id="state">
+          <div><img src="./img/like.png" /><span>9</span></div>
+          <div><img src="./img/discuss.png" /><span>评论</span></div>
+        </div>
+
+        <div class="time">一小时前</div>
+
+        <div class="disscussion">
+          <ul>
+            <li>
+              <div>秋香：</div>
+              <div>赞~</div>
+            </li>
+            <li>
+              <div>我爱保时捷：</div>
+              <div>滴滴，让出行更美丽！</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- content end -->
+
+      <!-- content -->
+      <div class="content">
+        <div class="person_info">
+          <img src="./img/info_img.png" />
+          <div id="name_info">
+            <div class="name">张小六</div>
+            <!-- <div class="name_text">滴滴出行，出行无忧。</div> -->
+          </div>
+        </div>
+
+        <div class="ads_info">
+          <img src="./img/text_img.png" />
+          <div>
+            滴滴，注册司机接单拿奖励，随时随地可接单，赢取高额奖励，轻松赚外快。
+          </div>
+        </div>
+
+        <div class="state" id="state">
+          <div><img src="./img/like.png" /><span>125</span></div>
+          <div><img src="./img/discuss.png" /><span>评论</span></div>
+          <div><img src="./img/discuss.png" /><span>删除</span></div>
+        </div>
+
+        <div class="time">一小时前</div>
+
+        <div class="disscussion">
+          <ul>
+            <li>
+              <div>星星点灯：</div>
+              <div>每天上下班顺两单。。。。。。</div>
+            </li>
+            <li>
+              <div>至尊宝：</div>
+              <div>了解从未接触的领域。。。。。。</div>
+            </li>
+            <li>
+              <div>甲壳虫：</div>
+              <div>有内涵~</div>
+            </li>
+            <li>
+              <div>甲壳虫：</div>
+              <div>绿色出行~</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="switchOff" onclick="turnOff(0)">
+          收起<img src="./img/up.svg" />
+        </div>
+        <div class="switchOn" onclick="turnOn(0)">
+          查看全部评论<img src="./img/down.svg" />
+        </div>
+      </div>
+      <!-- content end -->
+
+      <!-- content -->
+      <div class="content">
+        <div class="person_info">
+          <img src="./img/info_img.png" />
+          <div id="name_info">
+            <div class="name">甲壳虫</div>
+            <div class="name_text">
+              2017年1月，心之向往，记住我的西藏行，历史16天，川外青山。
+            </div>
+          </div>
+        </div>
+
+        <div class="ads_info">
+          <!-- <img src="./img/text_img.png">
+                    <div>滴滴出行，从此出行再无忧。</div> -->
+          <img id="img_one" src="./img/viewing_img_01.jpg" />
+        </div>
+
+        <div class="state" id="state">
+          <div><img src="./img/like.png" /><span>9</span></div>
+          <div><img src="./img/discuss.png" /><span>评论</span></div>
+        </div>
+
+        <div class="time">一小时前</div>
+
+        <div class="disscussion">
+          <ul>
+            <li>
+              <div>星星点灯：</div>
+              <div>每天上下班顺两单。。。。。。</div>
+            </li>
+            <li>
+              <div>至尊宝：</div>
+              <div>了解从未接触的领域。。。。。。</div>
+            </li>
+            <li>
+              <div>甲壳虫：</div>
+              <div>有内涵~</div>
+            </li>
+            <li>
+              <div>甲壳虫：</div>
+              <div>绿色出行~</div>
+            </li>
+          </ul>
+        </div>
+        <div class="switchOff" onclick="turnOff(1)">
+          收起<img src="./img/up.svg" />
+        </div>
+        <div class="switchOn" onclick="turnOn(1)">
+          查看全部评论<img src="./img/down.svg" />
+        </div>
+      </div>
+
+      <!-- content end -->
+
+      <!-- content -->
+      <div class="content">
+        <div class="person_info">
+          <img src="./img/info_img.png" />
+          <div id="name_info">
+            <div class="name">甲壳虫</div>
+            <div class="name_text">
+              2017年1月，心之向往，记住我的西藏行，历史16天，川外青山。
+            </div>
+          </div>
+        </div>
+
+        <div class="ads_info">
+          <!-- <img src="./img/text_img.png">
+                    <div>滴滴出行，从此出行再无忧。</div> -->
+          <img id="img_two" src="./img/viewing_img_01.jpg" />
+          <img id="img_two" src="./img/viewing_img_02.jpg" />
+        </div>
+
+        <div class="state" id="state">
+          <div><img src="./img/like.png" /><span>9</span></div>
+          <div><img src="./img/discuss.png" /><span>评论</span></div>
+        </div>
+
+        <div class="time">一小时前</div>
+      </div>
+
+      <!-- content end -->
+
+      <!-- content -->
+      <div class="content">
+        <div class="person_info">
+          <img src="./img/info_img.png" />
+          <div id="name_info">
+            <div class="name">甲壳虫</div>
+            <div class="name_text">
+              2017年1月，心之向往，记住我的西藏行，历史16天，川外青山。
+            </div>
+          </div>
+        </div>
+
+        <div class="ads_info">
+          <!-- <img src="./img/text_img.png">
+                    <div>滴滴出行，从此出行再无忧。</div> -->
+          <img id="img_three" src="./img/viewing_img_01.jpg" />
+          <img id="img_three" src="./img/viewing_img_02.jpg" />
+          <img id="img_three" src="./img/viewing_img_03.jpg" />
+        </div>
+
+        <div class="state" id="state">
+          <div><img src="./img/like.png" /><span>9</span></div>
+          <div><img src="./img/discuss.png" /><span>评论</span></div>
+        </div>
+
+        <div class="time">一小时前</div>
+      </div>
+
+      <!-- content end -->
+
+      <!-- content -->
+      <div class="content">
+        <div class="person_info">
+          <img src="./img/info_img.png" />
+          <div id="name_info">
+            <div class="name">甲壳虫</div>
+            <div class="name_text">
+              2017年1月，心之向往，记住我的西藏行，历史16天，川外青山。
+            </div>
+          </div>
+        </div>
+
+        <div class="ads_info" style="display: flex; flex-flow: row wrap;">
+          <!-- <img src="./img/text_img.png">
+                    <div>滴滴出行，从此出行再无忧。</div> -->
+          <img id="img_four" src="./img/viewing_img_01.jpg" />
+          <img id="img_four" src="./img/viewing_img_02.jpg" />
+          <img id="img_four" src="./img/viewing_img_03.jpg" />
+          <img id="img_four" src="./img/viewing_img_04.jpg" />
+        </div>
+
+        <div class="state" id="state">
+          <div><img src="./img/like.png" /><span>9</span></div>
+          <div><img src="./img/discuss.png" /><span>评论</span></div>
+        </div>
+
+        <div class="time">一小时前</div>
+      </div>
+
+      <!-- content end -->
+
+      <!-- content -->
+      <div class="content">
+        <div class="person_info">
+          <img src="./img/info_img.png" />
+          <div id="name_info">
+            <div class="name">甲壳虫</div>
+            <div class="name_text">
+              2017年1月，心之向往，记住我的西藏行，历史16天，川外青山。
+            </div>
+          </div>
+        </div>
+
+        <div class="ads_info" style="display: flex; flex-flow: row wrap;">
+          <!-- <img src="./img/text_img.png">
+                    <div>滴滴出行，从此出行再无忧。</div> -->
+          <img id="img_six" src="./img/viewing_img_01.jpg" />
+          <img id="img_six" src="./img/viewing_img_02.jpg" />
+          <img id="img_six" src="./img/viewing_img_03.jpg" />
+          <img id="img_six" src="./img/viewing_img_04.jpg" />
+          <img id="img_six" src="./img/viewing_img_05.jpg" />
+          <img id="img_six" src="./img/viewing_img_06.jpg" />
+        </div>
+
+        <div class="state" id="state">
+          <div><img src="./img/like.png" /><span>9</span></div>
+          <div><img src="./img/discuss.png" /><span>评论</span></div>
+        </div>
+
+        <div class="time">一小时前</div>
+      </div>
+
+      <!-- content end -->
+
+      <!-- <hr /> -->
+      <div style="background-color: #acb1b7;height:1px;margin-top: 1rem;"></div>
+      <div class="footer">已显示全部内容</div>
+    </div>
+
+    <script src="./js.js"></script>
+  </body>
+</html>
